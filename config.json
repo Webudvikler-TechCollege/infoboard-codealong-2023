@@ -1,5 +1,4 @@
 {
-    "max_seconds_to_last_update": 3600,
     "max_num_activities": 16,
     "array_valid_educations": [
         "AMU indmeld",
