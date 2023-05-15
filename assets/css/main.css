@@ -1,0 +1,30 @@
+table {
+  border: solid 1px #000;
+  border-spacing: 0;
+  width: 100%;
+}
+table td, table th {
+  padding: 0.5rem;
+  border: solid 1px #000;
+}
+
+#busplan-wrapper ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#busplan-wrapper ul li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+#busplan-wrapper ul li:first-child {
+  width: 1rem;
+  text-align: right;
+}
+#busplan-wrapper ul li:nth-child(2) {
+  width: 12rem;
+}
+#busplan-wrapper ul li:last-child {
+  width: 3rem;
+  text-align: right;
+}/*# sourceMappingURL=main.css.map */
