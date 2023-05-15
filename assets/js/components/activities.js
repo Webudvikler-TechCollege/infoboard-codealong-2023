@@ -107,8 +107,9 @@ export const ActivityList = async () => {
     activities = activities.slice(0, config.max_num_activities)
   }
 
-  // Mapper activities med table row functions - diffentierer mellem row til dato eller aktiviteter
-  activities.map((item) => {
+  // Mapper activities med table row functions
+  activities.map(item => {
+	// Ternary value betinget af om Day property findes på item object
     acc_html += item.Day ? createDayRow(item) : createRow(item)
   })
 
@@ -145,3 +146,6 @@ function createDayRow(item) {
 		<td colspan="5">${item.Day}</td>
 	   </tr>`
 }
+
+jekn@bygma.dk 
+20864436
